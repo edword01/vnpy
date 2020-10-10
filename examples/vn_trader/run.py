@@ -114,7 +114,7 @@ def main():
     # main_engine.add_app(ExcelRtdApp)
     # main_engine.add_app(DataManagerApp)
     # main_engine.add_app(PortfolioStrategyApp)
-    
+
     main_window = MainWindow(main_engine, event_engine)
     main_window.showMaximized()
 
